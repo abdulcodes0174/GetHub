@@ -1,0 +1,14 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/darryl/Dropbox/classes21/comp2404/assignments/a2/a2-complete'
+g++ -c Repo.cc
+g++ -c RepoList.cc
+g++ -c GetHub.cc
+g++ -c TestControl.cc
+g++ -c main.cc 
+g++    -c -o TestView.o TestView.cc
+g++ -c Client.cc
+g++ -c Subscriber.cc
+g++ -c File.cc
+g++ -o a2 main.o TestView.o TestControl.o Client.o GetHub.o Subscriber.o Repo.o File.o RepoList.o
+make: Leaving directory '/home/darryl/Dropbox/classes21/comp2404/assignments/a2/a2-complete'
+ 
