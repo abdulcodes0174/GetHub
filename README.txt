@@ -33,5 +33,5 @@ The Control class (Control object):
 The TestControl class (Control object):
 (a) Manages the interaction of the other objects in order to run tests
 
-The Tester class (???):
+The Tester class:
 (a) Provides testing functionality
